@@ -24,4 +24,4 @@ def secure_token
   end
 end
 
-Prototypical::Application.config.secret_key_base = 'a1ca14d2d3bb551cdfa6ed28353dbb00a6ecaadc21f36881d7d81181ef8595e80d22f87173bda310c095740ad69ebb368f0b3ab12eeeb57a53b60385fb14fce2'
+Prototypical::Application.config.secret_key_base = secure_token
